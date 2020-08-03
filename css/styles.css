@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: 'Arial Black'; 'Arial Bold', Gadget, sans-serif;
+  font-size: 2em;
+}
+
+.ss_b {
+  margin-top: 200px;
+}
