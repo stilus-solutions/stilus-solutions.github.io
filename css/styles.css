@@ -11,3 +11,8 @@ h1 {
 .ss_b {
   margin-top: 200px;
 }
+
+a:link {
+  color:black;
+  text-decoration: underline;
+}
