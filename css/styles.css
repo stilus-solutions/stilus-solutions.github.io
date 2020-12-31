@@ -6,11 +6,20 @@
 /* Colours
    - Lt Green #C9D7C1
    - Dk Green #6E8E5B
+
+   Photo credit
+   - Banner image: Tina Xinia on Unsplash
 */
 body,
 html {
     width: 100%;
 	height: 100%;
+}
+
+.above-heading {
+	color: #6E8E5B;
+	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+	text-align: center;
 }
 
 /* 02. Preloader */
@@ -101,8 +110,13 @@ html {
 
 /* Header */
 .header {
-	background-color: #C9D7C1;
+	/*background-color: #C9D7C1;*/
   min-height: 75%;
+  background-image: url("../img/bg-tina-xinia-unsplash.jpg");
+  box-shadow:inset 0 0 0 2000px rgba(201, 215, 193, 0.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .header .header-content {
@@ -113,8 +127,12 @@ html {
 
 /* About Us */
 #about-cr {
-  padding-top:8rem;
-  padding-bottom:8rem;
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+#about-cr img {
+  max-width:100%;
 }
 
 /* Services */
