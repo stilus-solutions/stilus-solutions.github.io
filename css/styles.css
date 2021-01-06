@@ -82,15 +82,21 @@ html {
 
 /* Navigation */
 .navbar-custom {
-  background-color: #fff;
-	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
-	transition: all 0.2s;
+  background: rgba(255,255,255,1.0);
+  -webkit-transition: all ease-out .5s;
+  -moz-transition: all ease-out .5s;
+  -o-transition: all ease-out .5s;
+  transition: all ease-out .5s;
+}
+
+.navbar-custom-active {
+  background-color: rgba(255,0,0,1.0);
 }
 
 .btn-solid-sm {
   margin-top: 0.25rem;
 	margin-bottom: 1.375rem;
-	margin-left: 0.5rem;
+	/*margin-left: 0.5rem;*/
 	border: 0.125rem solid #6E8E5B;
   background-color: #6E8E5B;
   color: #fff;
@@ -109,26 +115,28 @@ html {
 }
 
 /* Header */
-.header {
-	/*background-color: #C9D7C1;*/
-  min-height: 75%;
-  background-image: url("../img/bg-tina-xinia-unsplash.jpg");
-  box-shadow:inset 0 0 0 2000px rgba(201, 215, 193, 0.2);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+#myVideo {
+  width: 100%;
 }
 
-.header .header-content {
-	padding-top: 8rem;
-	padding-bottom: 4rem;
-	text-align: center;
+.h_vid {
+  box-shadow:inset 0 0 0 2000px rgba(201, 215, 193, 0.2);
 }
 
 /* About Us */
+.jumbotron {
+  background-color: #6E8E5B;
+  border-radius: 0;
+}
+
+.jumbotron h1, .jumbotron p {
+  color:white;
+}
+
 #about-cr {
   padding-top:4rem;
   padding-bottom:4rem;
+  background-color:#fff;
 }
 
 #about-cr img {
@@ -140,15 +148,36 @@ html {
   text-align:center;
 }
 
+#services .card {
+  border:0;
+}
+
+.card-image img {
+  max-width:70%;
+}
+
+/* Testimonials */
 #testimonials {
   padding-top:4rem;
   padding-bottom:4rem;
+  text-align:center;
 }
 
+#testimonials img {
+  max-height: 100px;
+}
+
+/* Contact Us */
 #contact .container {
   padding: 3.5rem 1rem 2.5rem 1rem;
 	border-radius: 0.5rem;
 	background-color: #DAE8D1;
+  text-align: center;
+}
+
+#contact input {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 .form h2 {

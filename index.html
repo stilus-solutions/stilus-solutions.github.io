@@ -28,6 +28,7 @@
     </div>
 
 <!-- Navigation -->
+<div class="ss_nav">
 <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
   <a class="navbar-brand" href="#">Stilus</a>
   <div class="collapse navbar-collapse">
@@ -36,7 +37,7 @@
         <a class="nav-link page-scroll" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-          <a class="nav-link page-scroll" href="#about">About</a>
+          <a class="nav-link page-scroll" href="#about-cr">About</a>
       </li>
       <li class="nav-item">
           <a class="nav-link page-scroll" href="#services">Services</a>
@@ -50,13 +51,17 @@
     </ul>
   </div>
 </nav>
+</div>
 
 <!-- Header -->
-<header id="header" class="header">
-    <div class="header-content">
-      <div class="container-fluid">
+<header id="header">
+      <div class="container-fluid h-vid p-0">
+        <div class="row no-gutters">
+          <video autoplay muted loop id="myVideo">
+          <source src="img/banner.mp4" type="video/mp4">
+        </video>
       </div>
-</div>
+    </div>
 </header>
 
 <!-- About Us - Stilus -->
@@ -69,7 +74,7 @@
 
 <!-- About Us - CR -->
 <div id="about-cr">
-  <div class="above-heading">ABOUT US</div>
+  <div class="above-heading">WHO WE ARE</div>
   <div class="container">
     <div class="row">
       <div class="col-lg-3">
@@ -85,15 +90,19 @@
 
 <!-- Services -->
 <div id="services">
+  <div class="above-heading">SERVICES</div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <h2>Services we offer</h2>
+      <div class="col-lg-12 p-4">
+        <h2>A one-stop-shop for your business growth needs</h2>
       </div>
   </div>
   <div class="row">
     <div class="col-lg-4"><!-- Begin card 1 -->
       <div class="card">
+        <div class="card-image p-2">
+            <img src="img/description-2.png" title="Design Services">
+        </div>
         <div class="card-body">
           <h4 class="card-title">Design</h4>
           <p>Web design, print, graphic, logo and branding.</p>
@@ -102,6 +111,9 @@
     </div>
     <div class="col-lg-4"><!-- Begin card 2 -->
       <div class="card">
+        <div class="card-image p-2">
+            <img src="img/description-3.png" title="Production Services">
+        </div>
         <div class="card-body">
           <h4 class="card-title">Production</h4>
           <p>Photography, video and media production and editing.</p>
@@ -110,6 +122,9 @@
     </div>
     <div class="col-lg-4"><!-- Begin card 3 -->
       <div class="card">
+        <div class="card-image p-2">
+            <img src="img/description-1.png" title="Marketing Services">
+        </div>
         <div class="card-body">
           <h4 class="card-title">Marketing</h4>
           <p>Social media, direct marketing, print and SEO.</p>
@@ -117,7 +132,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row justify-content-center p-4">
     <a class="btn-solid-sm" href="#">Read more</a>
   </div>
 </div>
@@ -125,33 +140,35 @@
 
 <!-- Testimonials -->
 <div id="testimonials">
+  <div class="above-heading">BRANDS WE LOVE</div>
   <div class="container">
-    <div class="row">
+    <div class="row p-4">
       <div class="col-lg-4">
-        AMTRAX
+        <img src="img/client-1.gif">
       </div>
       <div class="col-lg-4">
-        Ratio
+        <img src="img/client-2.png">
       </div>
       <div class="col-lg-4">
-        Forestry Solutions Group
+        <img src="img/client-3.png">
       </div>
 </div>
-<div class="row">
+<!--
+<div class="row justify-content-center">
   <a class="btn-solid-sm" href="#">Read more</a>
-</div>
+</div>-->
 </div>
 </div>
 
 <!-- Contact Us -->
-<div class="form" id="contact">
+<div class="form justify-content-center" id="contact">
   <div class="container">
+    <div class="above-heading">CONTACT US</div>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col">
           <h2>Get a quote</h2>
           <div class="form-group">
-            <input type="email" class="form-control-input" id="nemail">
-            <label class="label-control" for="nemail">Email</label>
+            <input type="email" class="form-control" id="nemail" placeholder="Enter your email">
           </div>
           <div class="form-group">
               <button type="submit" class="btn-solid-sm">Submit</button>
@@ -163,40 +180,18 @@
 
 <!-- Socials -->
 <div id="socials">
+  <div class="container">
   <div class="row">
     <div class="col-lg-12">
         <div class="icon-container">
           <span class="fa-stack">
-              <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x"></i>
-              </a>
-          </span>
-          <span class="fa-stack">
-              <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x"></i>
-              </a>
-          </span>
-          <span class="fa-stack">
-              <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-pinterest-p fa-stack-1x"></i>
-              </a>
-          </span>
-          <span class="fa-stack">
-              <a href="#your-link">
+              <a href="https://instagram.com/stilus_solutions" target="_blank" title="Follow us on Instagram">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-instagram fa-stack-1x"></i>
               </a>
           </span>
-          <span class="fa-stack">
-              <a href="#your-link">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-linkedin-in fa-stack-1x"></i>
-              </a>
-          </span>
   </div>
+</div>
 </div>
 </div>
 </div>
@@ -206,13 +201,16 @@
   <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4>Stilus Solutions</h4>
+          <h4>Based in Melbourne, Australia.</h4>
+          <p>&copy; 2020 Stilus Solutions Ltd</p>
       </div>
+</div>
 </div>
 </div>
 
 <!-- Scripts -->
       <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+      <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
       <script src="js/scripts.js"></script> <!-- Custom scripts -->
   </body>
 
