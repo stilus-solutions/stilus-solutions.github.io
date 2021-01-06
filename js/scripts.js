@@ -23,7 +23,7 @@
   			var $anchor = $(this);
   			$('html, body').stop().animate({
   				scrollTop: $($anchor.attr('href')).offset().top
-  			}, 600, 'easeInOutExpo');
+  			}, 800, 'easeInOutExpo');
   			event.preventDefault();
   		});
   	});
@@ -31,10 +31,10 @@
     $(function() {
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
-            $(".ss_nav").addClass("navbar-custom-active");
+            $(".navbar-custom").addClass("navbar-custom-active");
         } else {
             //remove the background property so it comes transparent again (defined in your css)
-           $(".ss_nav").removeClass("navbar-custom-active");
+           $(".navbar-custom").removeClass("navbar-custom-active");
         }
     });
 });

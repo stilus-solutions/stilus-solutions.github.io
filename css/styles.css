@@ -22,6 +22,27 @@ html {
 	text-align: center;
 }
 
+.btn-solid-sm {
+  margin-top: 0.25rem;
+	margin-bottom: 1.375rem;
+	/*margin-left: 0.5rem;*/
+	border: 0.125rem solid #6E8E5B;
+  background-color: #6E8E5B;
+  color: #fff;
+  display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border-radius: 2rem;
+	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.btn-solid-sm:hover {
+  background-color: transparent;
+	color: #6E8E5B;
+	text-decoration: none;
+}
+
 /* 02. Preloader */
 .spinner-wrapper {
 	position: fixed;
@@ -82,36 +103,25 @@ html {
 
 /* Navigation */
 .navbar-custom {
-  background: rgba(255,255,255,1.0);
+  background: rgba(255,255,255,0.0);
   -webkit-transition: all ease-out .5s;
   -moz-transition: all ease-out .5s;
   -o-transition: all ease-out .5s;
   transition: all ease-out .5s;
+  padding: 2.125rem 9rem 2.125rem 9rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+  color:white;
+  font-weight:700;
 }
 
 .navbar-custom-active {
-  background-color: rgba(255,0,0,1.0);
-}
-
-.btn-solid-sm {
-  margin-top: 0.25rem;
-	margin-bottom: 1.375rem;
-	/*margin-left: 0.5rem;*/
-	border: 0.125rem solid #6E8E5B;
-  background-color: #6E8E5B;
-  color: #fff;
-  display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border-radius: 2rem;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
-	text-decoration: none;
-	transition: all 0.2s;
-}
-
-.btn-solid-sm:hover {
-  background-color: transparent;
-	color: #6E8E5B;
-	text-decoration: none;
+  /*ackground-color: rgba(201,215,193,1.0);*/
+  background-color: rgba(110,142,91,1.0);
+  max-height:6rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
 /* Header */
