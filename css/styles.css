@@ -18,28 +18,28 @@ html {
 
 .above-heading {
 	color: #6E8E5B;
-	font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+	font: 700 1rem/0.875rem "Open Sans", sans-serif;
 	text-align: center;
+  padding:1rem 0rem;
 }
 
 .btn-solid-sm {
   margin-top: 0.25rem;
 	margin-bottom: 1.375rem;
-	/*margin-left: 0.5rem;*/
-	border: 0.125rem solid #6E8E5B;
-  background-color: #6E8E5B;
+  background-color: #000;
+  border:0;
   color: #fff;
   display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border-radius: 2rem;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	padding: 1.5rem 2.5rem;
+	border-radius: 3rem;
+	font: 700 1rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-solid-sm:hover {
-  background-color: transparent;
-	color: #6E8E5B;
+  background-color: #6E8E5B;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ html {
 }
 
 .navbar-custom-active {
-  background-color: rgba(110,142,91,1.0);
+  background-color: rgba(0,0,0,1.0);
   max-height:6rem;
   padding: 0.5rem 2rem 0.5rem 2rem;
 }
@@ -144,8 +144,9 @@ html {
 
 /* About Us */
 .jumbotron {
-  background-color: #AF97A3;
+  background-color: #000;
   border-radius: 0;
+  text-align:center;
 }
 
 .jumbotron h1, .jumbotron p {
@@ -203,7 +204,7 @@ html {
 }
 
 #contact h2 {
-  color:#896978;
+  color:#000;
 }
 
 .form h2 {
@@ -229,12 +230,12 @@ html {
 }
 
 .fa-stack .fa-stack-1x {
-    color: #fff;
+    color: #000;
 	transition: all 0.2s ease;
 }
 
 .fa-stack .fa-stack-2x {
-	color: #6E8E5B;
+	color: #fff;
 	transition: all 0.2s ease;
 }
 
@@ -243,7 +244,7 @@ html {
 }
 
 .fa-stack:hover .fa-stack-2x {
-    color: #C9D7C1;
+    color: #6E8E5B;
 }
 
 
@@ -251,6 +252,6 @@ html {
 .footer {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	background-color: #6E8E5B;
+	background-color: #000;
   color:#fff;
 }
