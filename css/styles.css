@@ -190,8 +190,17 @@ html {
   text-align:center;
 }
 
-#testimonials img {
+.swiper-container {
+  width: 800px;
+  height: 200px;
+}
+
+.swiper-slide img {
   max-height: 100px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color:#000;
 }
 
 /* Contact Us */
